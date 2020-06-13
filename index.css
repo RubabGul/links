@@ -12,19 +12,36 @@ body{
     padding: 30px;
     
 }
+.btun{
+    height: 20vh;
+    display: block;
+    margin-bottom: -30px;
+    text-align: center;
+    position: relative;
+}
+.btn1{
+   background-color: rgba(196, 67, 84, 0.9);
+    border-radius: 7px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-left:5px;
+}
 .link{
     position: relative;
     left: 43%;
     font-style: italic;
     background-color: rgba(228, 133, 145, 0.9);
-    bckground-image: radial-gradient(rgba(243, 61, 61, 0.8),rgba(166, 166, 221, 0.2)),
+    /*background-image: radial-gradient(rgba(243, 61, 61, 0.8),rgba(166, 166, 221, 0.2)),
      url(images/btn-back.jeg);
-    bckground-size: cover;
+    background-size: cover;*/
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     display: inline-block;
     padding:5px 50px;
-    margin-bottom: 10px;
     background-position: top;
 }
 .parta{
@@ -44,7 +61,7 @@ h2{
     text-transform:uppercase;
     color: rgba(223, 93, 93);
     font-style: italic;
-    font-weight: 700;
+    font-weight: 700;.com
     display: inline-block;
     padding: 10px 15px;
     margin-bottom:20px;
@@ -123,39 +140,4 @@ li{
     top: 1765px;
     left: 85px;
     color: white;
-}
-.btun{
-    height: 20vh;
-    display: block;
-    text-align: center;
-   // background-image: radial-gradient(rgba(141, 138, 138, 0.8),rgba(170, 170, 190, 0.8));
-    position: relative;
-    
-}
-.btn1{
-   background-color: rgba(196, 67, 84, 0.9);
-   // background-imae: radial-gradient(rgba(196, 67, 84, 0.9),rgba(109, 112, 112, 0.6));
-    border-radius: 7px;
-    border: none;
-    padding: 10px 20px;
-    font-weight: 700;
-    font-size: 20px;
-    color: white;
-    margin-top: 30px;
-    margin-left:5px
-}
-rea{
-    position: absolute;
-    top: 10px;
-    left: 150px;
-}
-jaa{
-        position: absolute;
-        top: 20px;
-        left: 290px;
-}
-cs{
-    position: absolute;
-    top: 20px;
-    left: 480px;
 }
